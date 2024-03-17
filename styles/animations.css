@@ -97,3 +97,13 @@
     transform-origin: center;
     animation: scale 0.3s ease-in 0.1s 1 alternate;
   }
+
+  .like-icon .core {
+    transition: fill 0.3s linear;
+    transition-delay: 0.03s;
+    fill: transparent;
+  }
+
+  .like-icon .contour {
+    transition: fill 0.1s linear;
+  }

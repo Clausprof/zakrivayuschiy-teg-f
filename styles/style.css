@@ -19,10 +19,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0;
+  padding: 100px 0 105px;
   width: var(--page-width);
-  min-inline-size: 320px;
-  height: max(667px, 100%);
+  min-inline-size: 375px;
   min-block-size: 100dvb;
   color: var(--accent-color);
   background-color: var(--bg-color);
@@ -44,7 +43,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 368px;
   width: 100%;
   padding: 140px 25px 25px;
   margin-bottom: 100px;
@@ -146,9 +144,9 @@
 
 .picture {
   width: 100%;
+  object-position: center;;
   object-fit: cover;
   aspect-ratio: 1 / 1;
-  margin-bottom: -4px;
 }
 
 .dark-filter {
@@ -215,12 +213,14 @@
   padding-bottom: 25px;
   font-family: var(--main-font, sans-serif);
   font-variation-settings: "wght" var(--main-font-weight);
+  line-height: 21px;
 }
 
 .interact-block {
   display: flex;
   justify-content: flex-end;
-  gap: 5px;
+  align-items: center;
+  gap: 4px;
 }
 
 .button {
@@ -247,7 +247,6 @@
 
 .button:focus {
   box-shadow: 2px 2px 0 0 var(--accent-color);
-  transition: box-shadow 0.3s ease;
 }
 
 .button:hover::before {
@@ -295,40 +294,16 @@
   width: clamp(306px, 48.1%, 335px);
   padding: 15px 18px;
   display: flex;
-  gap: 8px;
+  gap: 7px;
   font-family: var(--accent-font);
   font-weight: 400;
   background-color: var(--bg-color);
 }
 
-.dialog-icon {
-  inline-size: 39px;
-  mix-blend-mode: difference;
-  flex-shrink: 0;
-  color: var(--img-disk-color);
-}
-
-.dialog-logo {
-  inline-size: 39px;
-}
-
 .button__icon {
-  width: 21px;
+  width: clamp(1.3125rem, 1.904rem + -0.6573vw, 1.75rem);
   color: var(--img-disk-color);
   mix-blend-mode: difference;
-}
-
-.heart:hover {
-  transition: fill 0.3s ease;
-  fill: var(--accent-color);
-}
-
-.sparks {
-  opacity: 0;
-}
-
-.main-body {
-  fill: var(--bg-color);
 }
 
 #dialog-save[open] {
@@ -384,9 +359,17 @@
   }
 
   .header {
-    padding-block: 120px 23px;
+    padding-top: 120px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 25px;
+    /* padding-block: 80px 23px; */
   }
   
+  .interact-block {
+    gap: 6px;
+  }
+
   .theme-menu__list {
     gap: 9px;
   }
