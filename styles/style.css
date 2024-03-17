@@ -135,9 +135,9 @@
 .block-title {
   padding: 3.5px 10px;
   border-bottom: 2px solid var(--accent-color);
-  font-weight: var(--accent-font-weight);
   font-size: 18px;
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font, sans-serif);
+  font-variation-settings: "wght" var(--accent-font-weight);
 }
 
 .img-container {
@@ -213,8 +213,8 @@
   gap: 22px;
   padding-top: 2px;
   padding-bottom: 25px;
-  font-family: var(--main-font);
-  font-weight: var(--main-font-weight);
+  font-family: var(--main-font, sans-serif);
+  font-variation-settings: "wght" var(--main-font-weight);
 }
 
 .interact-block {
