@@ -13,7 +13,7 @@
     --bg-color: #fff;
     --accent-color: #000;
     --bg-img-color-gradient: #d3d3d3;
-    --bg-img-horizontal-gradient-start: #E7E7E7; 
+    --bg-img-horizontal-gradient-start: #E7E7E7;
     --bg-img-horizontal-gradient-end: #1A1A1A;
     --img-disk-color: #fff;
     
@@ -27,7 +27,7 @@
     --bg-color: #000;
     --accent-color: #00CC14;
     --bg-img-color-gradient: #000;
-    --bg-img-horizontal-gradient-start: #007f0c; 
+    --bg-img-horizontal-gradient-start: #007f0c;
     --bg-img-horizontal-gradient-end: #004306;
     --img-disk-color: var(--accent-color);
     --img-text-shadow: var(--bg-color);
@@ -44,7 +44,7 @@
         --bg-color: #000;
         --accent-color: #00CC14;
         --bg-img-color-gradient: #000;
-        --bg-img-horizontal-gradient-start: #007f0c; 
+        --bg-img-horizontal-gradient-start: #007f0c;
         --bg-img-horizontal-gradient-end: #004306;
         --img-disk-color: var(--accent-color);
         --img-text-shadow: var(--bg-color);
