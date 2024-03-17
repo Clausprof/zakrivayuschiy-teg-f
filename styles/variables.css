@@ -1,1 +1,19 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --page-width: clamp(371px, 48.3vw, 696px);
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'PressStart2P-Regular', sans-serif;
+    --main-font-weight: 400;
+    --accent-font-weight: 700;
+    --bg-color: #fff;
+    --accent-color: #000;
+    --bg-img-color-gradient: #d3d3d3;
+    --bg-img-horizontal-gradient-start: #E7E7E7; 
+    --bg-img-horizontal-gradient-end: #1A1A1A;
+    --img-disk-color: #fff;
+    --heart-contour-color: #000;
+    --heart-filling-color: red;
+    --img-text-shadow: #fff;
+    --button-text-color: #fff;
+}

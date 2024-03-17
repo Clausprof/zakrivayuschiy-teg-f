@@ -9,7 +9,11 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+}
+
+.header, .content-body, .footer {
+  margin: 0 auto;
 }
 
 h1,
