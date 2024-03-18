@@ -3,7 +3,7 @@
 :root {
     --page-width: clamp(371px, 48.3vw, 696px);
     --main-font: 'Inter', sans-serif;
-    --accent-font: 'PressStart2P-Regular', sans-serif;
+    --accent-font: 'PressStart2P', sans-serif;
     --main-font-weight: 400;
     --accent-font-weight: 700;
     --bg-color: #fff;
